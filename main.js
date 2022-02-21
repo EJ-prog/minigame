@@ -10,7 +10,7 @@ ASSET_MANAGER.downloadAll(() => {
 	const ctx = canvas.getContext("2d");
 	ctx.imageSmoothingEnabled = false;
 
-	// gameEngine.addEntity(new MetalDesert(gameEngine));
+	gameEngine.addEntity(new ABCs(gameEngine));
 
 	gameEngine.init(ctx);
 
